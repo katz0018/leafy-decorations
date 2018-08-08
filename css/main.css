@@ -3,10 +3,11 @@ html {
 }
 
 .masthead {
-  background-image: url(".../leafy-decorations-download/www/images/SVG/leav.svg");
+  background-image: url("../images/SVG/leaf.svg");
   background-color: #588477;
   border-top: 4px solid #2d5a4d;
   border-bottom: 4px solid #2d5a4d;
+  background-size: 18px auto;
 }
 
 .logo {
