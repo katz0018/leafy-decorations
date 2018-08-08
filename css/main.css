@@ -9,7 +9,7 @@ body {
 }
 
 .masthead {
-  background-image: url("../images/SVG/leaf.svg");
+  background-image: url("../images/svg/leaf.svg");
   background-color: #588477;
   border-top: 4px solid #2d5a4d;
   border-bottom: 4px solid #2d5a4d;
@@ -36,7 +36,7 @@ body {
 .nav a:hover {
   background-color: #fff;
   color: #145b1d;
-  background-image: url("../images/SVG/leaf.svg");
+  background-image: url("../images/svg/leaf.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50px auto;
@@ -48,7 +48,7 @@ body {
 
 .banner-content {
   padding-top: 8em;
-  background-image: url("../images/SVG/2-leaves.svg");
+  background-image: url("../images/svg/2-leaves.svg");
   background-size: 90px;
   background-repeat: no-repeat;
   margin-top: 14em;
