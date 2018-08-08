@@ -4,6 +4,8 @@ html {
 
 body {
   background-image: url("../images/plant.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .masthead {
@@ -42,14 +44,14 @@ body {
 
 .banner {
   color: #fff;
-  background-image: url("../images/SVG/2-leaves.svg");
-  background-size: 90px;
-  background-repeat: no-repeat;
-  margin-top: 16em;
 }
 
 .banner-content {
   padding-top: 8em;
+  background-image: url("../images/SVG/2-leaves.svg");
+  background-size: 90px;
+  background-repeat: no-repeat;
+  margin-top: 14em;
 }
 
 @media only screen and (min-width: 60em) {
