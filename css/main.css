@@ -42,13 +42,14 @@ body {
 
 .banner {
   color: #fff;
+  background-image: url("../images/SVG/2-leaves.svg");
+  background-size: 90px;
+  background-repeat: no-repeat;
+  margin-top: 16em;
 }
 
 .banner-content {
-  background-image: url("../images/SVG/2-leaves.svg");
-  background-size: 70px;
-  background-repeat: no-repeat;
-  padding-top: 6em;
+  padding-top: 8em;
 }
 
 @media only screen and (min-width: 60em) {
