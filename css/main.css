@@ -45,9 +45,10 @@ body {
 }
 
 .banner-content {
-  background-image: url("../images/2-leaves.svg");
-  padding-top: 3em;
-  background-size: 2em;
+  background-image: url("../images/SVG/2-leaves.svg");
+  background-size: 70px;
+  background-repeat: no-repeat;
+  padding-top: 6em;
 }
 
 @media only screen and (min-width: 60em) {
