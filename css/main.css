@@ -3,14 +3,14 @@ html {
 }
 
 body {
-  background-image: url("../images/plant.jpg");
+  background-image: url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-image: linear-gradient(rgba(16, 52, 41, .8));
 }
 
 .masthead {
-  background-image: url("../images/svg/leaf.svg");
+  background-image: url("../images/svg/leaf-bg.svg");
   background-color: #588477;
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
@@ -37,7 +37,7 @@ body {
 .nav a:hover {
   background-color: #fff;
   color: #145b1d;
-  background-image: url("../images/svg/leaf.svg");
+  background-image: url("../images/svg/leaf-icon.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 50px auto;
@@ -49,7 +49,7 @@ body {
 
 .banner-content {
   padding-top: 7em;
-  background-image: url("../images/svg/2-leaves.svg");
+  background-image: url("../images/svg/two-leaves.svg");
   background-size: 90px;
   background-repeat: no-repeat;
   margin-top: 9em;
