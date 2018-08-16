@@ -3,10 +3,7 @@ html {
 }
 
 body {
-  background-image: ;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background: linear-gradient(to bottom, rgba(16, 52, 41, 0),  rgba(16, 52, 41, .8)), url("../images/banner.jpg") 2500px;
+  background-color: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8));
 }
 
 .masthead {
@@ -15,6 +12,7 @@ body {
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
   background-size: 50px auto;
+  margin-bottom: 6em;
 }
 
 .logo {
@@ -45,6 +43,10 @@ body {
 
 .banner {
   color: #fff;
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .banner-content {
@@ -52,7 +54,6 @@ body {
   background-image: url("../images/svg/two-leaves.svg");
   background-size: 90px;
   background-repeat: no-repeat;
-  margin-top: 9em;
 }
 
 @media only screen and (min-width: 60em) {
