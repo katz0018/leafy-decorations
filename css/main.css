@@ -3,7 +3,9 @@ html {
 }
 
 body {
-  background-color: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8));
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .masthead {
@@ -43,10 +45,6 @@ body {
 
 .banner {
   color: #fff;
-  background-image: url("../images/banner.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-
 }
 
 .banner-content {
