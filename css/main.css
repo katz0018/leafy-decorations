@@ -3,9 +3,11 @@ html {
 }
 
 body {
-  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8)), url("../images/banner.jpg");
-  background-size: 2500px, cover;
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8));
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
+  max-width: 100%;
 }
 
 .masthead {
@@ -49,6 +51,7 @@ body {
 
 .banner-content {
   padding-top: 7em;
+  padding: 7em 0 .5em 1em;
   background-image: url("../images/two-leaves.svg");
   background-size: 90px;
   background-repeat: no-repeat;
