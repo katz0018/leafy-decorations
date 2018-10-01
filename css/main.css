@@ -80,6 +80,7 @@ div p {
 
   .masthead {
     text-align: left;
+    padding-bottom: 1em;
   }
 
   .banner-content {
@@ -96,10 +97,6 @@ div p {
 
   div p {
     padding-top: 2.6em;
-  }
-
-  .masthead {
-    padding-bottom: 1em;
   }
 
 }
