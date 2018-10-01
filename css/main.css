@@ -80,11 +80,11 @@ div p {
 
   .masthead {
     text-align: left;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
   }
 
   .banner-content {
-    padding-top: 11em;
+    padding-top: 10em;
   }
 
   .logo {
