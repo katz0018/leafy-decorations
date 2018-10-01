@@ -83,7 +83,7 @@ div p {
   }
 
   .banner-content {
-    padding-top: 10em;
+    padding-top: 11em;
   }
 
   .logo {
@@ -95,7 +95,11 @@ div p {
   }
 
   div p {
-    padding-top: 2.5em;
+    padding-top: 2.6em;
+  }
+
+  .masthead {
+    padding-bottom: 1em;
   }
 
 }
