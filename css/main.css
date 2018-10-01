@@ -4,6 +4,7 @@ html {
 
 .banner {
   color: #fff;
+  background-image: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8) 100%), url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -44,11 +45,9 @@ html {
 }
 
 .banner-content {
-  padding-top: 185px;
-  background: url("../images/two-leaves.svg");
+  padding-top: 180px;
   background-size: 100px;
   background-repeat: no-repeat;
-  background: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8) 100%), url("../images/banner.jpg");
 }
 
 div p {
@@ -83,11 +82,11 @@ div p {
 
   .masthead {
     text-align: left;
-    padding-bottom: .5em;
+    padding-bottom: .7em;
   }
 
   .banner-content {
-    padding-top: 10em;
+    padding-top: 9.6em;
   }
 
   .logo {
@@ -111,7 +110,7 @@ div p {
   }
 
   .banner-content {
-    padding-top: 9em;
+    padding-top: 8.9em;
   }
 
   .logo {
