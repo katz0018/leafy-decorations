@@ -108,7 +108,7 @@ div p {
   }
 
   .banner-content {
-    padding-top: 11em;
+    padding-top: 9em;
   }
 
   .logo {
@@ -116,11 +116,11 @@ div p {
   }
 
   .nav {
-    text-align: left;
+    text-align: right;
   }
 
   div p {
-    padding-top: 2em;
+    padding-top: 2.5em;
   }
 
 }
