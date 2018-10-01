@@ -2,11 +2,12 @@ html {
   font-family: Lora, serif;
 }
 
-body {
-  background: url("../images/banner.jpg");
+.banner {
+  color: #fff;
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8) 95%), url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%;
+  background-position: bottom center;
 }
 
 .masthead {
@@ -15,7 +16,6 @@ body {
   border-top: 3px solid #2d5a4d;
   border-bottom: 3px solid #2d5a4d;
   background-size: 50px auto;
-  margin-bottom: 12em;
 }
 
 .logo {
@@ -44,19 +44,14 @@ body {
   background-size: 50px auto;
 }
 
-.banner {
-  color: #fff;
-  background: linear-gradient(to bottom, rgba(16, 52, 41, 0) 20%, rgba(16, 52, 41, .8) 70%);
-}
-
 .banner-content {
-  padding-top: 4em;
-  background: top left .75em no-repeat url("../images/two-leaves.svg");
-  background-size: 100px;
+  padding-top: 12em;
 }
 
 div p {
-  padding-top: 2em;
+  padding-top: 4.5em;
+  background: top left no-repeat url("../images/two-leaves.svg");
+  background-size: 100px;
 }
 
 @media only screen and (min-width: 60em) {
