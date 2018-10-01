@@ -4,7 +4,7 @@ html {
 
 .banner {
   color: #fff;
-  background: linear-gradient(to bottom, rgba(16, 52, 41, 0), rgba(16, 52, 41, .8) 95%), url("../images/banner.jpg");
+  background: linear-gradient(to bottom, rgba(16, 52, 41, 0) 70%, rgba(16, 52, 41, .8) 100%), url("../images/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -45,16 +45,46 @@ html {
 }
 
 .banner-content {
-  padding-top: 12em;
+  padding-top: 11em;
 }
 
 div p {
-  padding-top: 4.5em;
+  padding-top: 5em;
   background: top left no-repeat url("../images/two-leaves.svg");
   background-size: 100px;
 }
 
+.logo,
+.nav {
+  text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .logo,
+  .nav {
+    text-align: center;
+  }
+
+  .banner-content {
+    padding-top: 6em;
+  }
+
+  div p {
+    padding-top: 5em;
+  }
+
+}
+
 @media only screen and (min-width: 60em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .banner-content {
+    padding-top: 11em;
+  }
 
   .logo {
     text-align: left;
@@ -62,6 +92,34 @@ div p {
 
   .nav {
     text-align: right;
+  }
+
+  div p {
+    padding-top: 2.5em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .masthead {
+    text-align: left;
+  }
+
+  .banner-content {
+    padding-top: 11em;
+  }
+
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: left;
+  }
+
+  div p {
+    padding-top: 2em;
   }
 
 }
